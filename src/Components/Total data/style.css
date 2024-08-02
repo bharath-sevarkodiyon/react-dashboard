@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Montserrat", sans-serif;
+}
+.total{
+    height: 120px;
+    /* border: 2px solid; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* 1nd block */
+.profitContainer{
+    border-radius: 15px;
+    background-color: white;
+}
+.profit{
+    padding: 0px 8px;
+    width: 100%;
+    border-left: 2px solid #748AEF;
+}
+.profit div:nth-child(1){
+    margin-top: 10px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.dollar{
+    border-radius: 50%;
+    padding: 4px 8px;
+    background-color: #EDEFFC;
+}
+.dollarTitle{
+    color: #939393;
+    font-size: 12px;
+    padding: 4px;
+}
+.profit div:nth-child(2){
+    margin-top: 10px;
+    padding-left: 10px;
+    display: flex;
+    color: #020109;
+}
+.dollarSign{
+    font-size: 20px;
+    padding: 7px 0 6px 0;
+    color: #020109;
+}
+.dollarValue{
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #020109;
+}
+.profit .dollarInc {
+    margin-top: 10px;
+    display: flex;
+    color: #020109;
+}
+.dollarInc p:first-child{
+    font-size: 12px;
+    padding: 4px;
+    border-radius: 10px;
+    color: #47A566;
+    background-color: #EAF6EC;
+}
+.dollarInc p:last-child{
+    font-size: 11px;
+    padding: 4px;
+    color: #959597;
+}
+
+/* 2nd block */
+.incomeContainer{
+    border-radius: 15px;
+    background-color: white;
+}
+.income {
+    padding: 0px 8px;
+    width: 100%;
+    border-left: 2px solid #7F58D9;
+}
+.income div:nth-child(1) {
+    margin-top: 10px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.down {
+    font-size: 16px;
+    border-radius: 50%;
+    padding: 4px 8px;
+    background-color: #F4F2F7;
+}
+.income div:nth-child(2) {
+    margin-top: 10px;
+    padding-left: 10px;
+    display: flex;
+    color: #020109;
+}
+.income .downInc {
+    margin-top: 10px;
+    display: flex;
+    color: #020109;
+}
+.downInc p:first-child {
+    font-size: 12px;
+    padding: 4px;
+    border-radius: 10px;
+    color: #9B5A54;
+    background-color: #FFE2ED;
+}
+.downInc p:last-child {
+    font-size: 11px;
+    padding: 4px;
+    color: #959597;
+}
+
+/* 3nd block */
+.customerContainer {
+    border-radius: 15px;
+    background-color: white;
+}
+.customer {
+    padding: 0px 8px;
+    width: 100%;
+    border-left: 2px solid #F25B30;
+}
+.customer div:nth-child(1) {
+    margin-top: 10px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.user {
+    font-size: 12px;
+    border-radius: 50%;
+    padding: 8px 8px;
+    background-color: #FCF1ED;
+}
+.customerTitle {
+    color: #939393;
+    font-size: 12px;
+    padding: 8px 0 0 8px;
+}
+.customer div:nth-child(2) {
+    margin-top: 10px;
+    padding-left: 10px;
+    display: flex;
+    color: #020109;
+}
+.customer .userInc {
+    margin-top: 10px;
+    display: flex;
+    color: #020109;
+}
+.userInc p:first-child {
+    font-size: 12px;
+    padding: 4px;
+    border-radius: 10px;
+    color: #96394B;
+    background-color: #F4E5EC;
+}
+.userInc p:last-child {
+    font-size: 11px;
+    padding: 4px;
+    color: #959597;
+}
+
+
+/* 4nd block */
+.orderContainer {
+    border-radius: 15px;
+    background-color: white;
+}
+
+.order {
+    padding: 0px 8px;
+    width: 100%;
+    border-left: 2px solid #48C8E3;
+}
+
+.order div:nth-child(1) {
+    margin-top: 10px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.cube {
+    font-size: 16px;
+    border-radius: 50%;
+    padding: 5px 6px;
+    background-color: #F4F2F7;
+}
+
+.order div:nth-child(2) {
+    margin-top: 10px;
+    padding-left: 10px;
+    display: flex;
+    color: #020109;
+}
+
+.order .cubeInc {
+    margin-top: 10px;
+    display: flex;
+    color: #020109;
+}
+
+.cubeInc p:first-child {
+    font-size: 12px;
+    padding: 4px;
+    border-radius: 10px;
+    color: #52A75C;
+    background-color: #EBF5ED;
+}
+
+.cubeInc p:last-child {
+    font-size: 11px;
+    padding: 4px;
+    color: #959597;
+}

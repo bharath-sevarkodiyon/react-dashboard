@@ -1,0 +1,18 @@
+{
+    "name": "React DomoApp",
+    "version": "0.0.1",
+    "size": {
+        "width": 6,
+        "height": 2
+    },
+    "mapping": [
+        {
+            "dataSetId": "2c9d8b79-914c-41a8-8cf8-111eea12ccf9",
+            "alias": "Olist_ds",
+            "fields":[]
+        }
+    ],
+    "collections":[],
+    "id": "f702d5e7-4b9a-4399-83da-948d69cb7c92",
+    "proxyId": "caf66226-f4ec-44ac-b4b2-3d06f9b065ee"
+}

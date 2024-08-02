@@ -1,0 +1,67 @@
+.topSale{
+    margin: 10px;
+    height: 95%;
+    width: 35%;
+    background-color: white;
+    border-radius: 20px;
+}
+.saleHead{
+    margin-top: 10px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+.saleTitle{
+    font-weight: 600;
+    padding-left: 5px;
+}
+.saleTitle>span{
+    padding-right: 7px;
+}
+.saleChart{
+    padding-left: 8px;
+    padding-right: 5px;
+}
+.Dot{
+    padding-right: 5px;
+}
+.accessories, .electronics, .fashion, .furniture{
+    font-size: 13px;
+    width: 80%;
+    background-color: #EEF0FD;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 13px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.progress1{
+    border-radius: 5px;
+    padding: 7px;
+    height: inherit;
+    width: 42%;
+    background-color: #DEE2FD;
+}
+.progress2 {
+    border-radius: 5px;
+    padding: 7px;
+    height: inherit;
+    width: 32%;
+    background-color: #DEE2FD;
+}
+.progress3 {
+    border-radius: 5px;
+    padding: 7px;
+    height: inherit;
+    width: 24%;
+    background-color: #DEE2FD;
+}
+.progress4 {
+    border-radius: 5px;
+    padding: 7px;
+    height: inherit;
+    width: 16%;
+    background-color: #DEE2FD;
+}
