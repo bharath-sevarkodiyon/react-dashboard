@@ -4,10 +4,10 @@
 }
 .total{
     height: 120px;
-    /* border: 2px solid; */
     margin-top: 10px;
     display: flex;
     justify-content: space-evenly;
+    /* border: 2px solid; */
 }
 
 /* 1nd block */
@@ -174,40 +174,34 @@
     border-radius: 15px;
     background-color: white;
 }
-
 .order {
     padding: 0px 8px;
     width: 100%;
     border-left: 2px solid #48C8E3;
 }
-
 .order div:nth-child(1) {
     margin-top: 10px;
     width: 80%;
     display: flex;
     justify-content: center;
 }
-
 .cube {
     font-size: 16px;
     border-radius: 50%;
     padding: 5px 6px;
     background-color: #F4F2F7;
 }
-
 .order div:nth-child(2) {
     margin-top: 10px;
     padding-left: 10px;
     display: flex;
     color: #020109;
 }
-
 .order .cubeInc {
     margin-top: 10px;
     display: flex;
     color: #020109;
 }
-
 .cubeInc p:first-child {
     font-size: 12px;
     padding: 4px;
@@ -215,7 +209,6 @@
     color: #52A75C;
     background-color: #EBF5ED;
 }
-
 .cubeInc p:last-child {
     font-size: 11px;
     padding: 4px;

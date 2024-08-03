@@ -29,6 +29,7 @@
     padding: 7px;
 }
 .storeBody{
+    display: flex;
     width: 100%;
 }
 .storeBodyContainer{
@@ -55,7 +56,6 @@
 .storeInc{
     margin-top: 5px;
     display: flex;
-    
 }
 .storeInc>p:first-child{
     font-size: 11px;
@@ -73,4 +73,9 @@
     padding-right: 5px;
     display: flex;
     align-items: center;
+}
+.sankeyChart{
+    height: 50%;
+    width: 65%;
+    font-size: 13px;
 }
